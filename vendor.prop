@@ -189,6 +189,9 @@ persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=2
 persist.sys.sf.color_mode=9
 
+# GFX
+ro.config.avoid_gfx_accel=true
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
