@@ -143,6 +143,7 @@ debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_transaction_tracing=false
 debug.sf.use_phase_offsets_as_durations=1
+debug.sf.layer_caching_active_layer_timeout_ms=1000
 debug.sf.late.sf.duration=15666666
 debug.sf.late.app.duration=16666666
 debug.sf.early.sf.duration=15666666
