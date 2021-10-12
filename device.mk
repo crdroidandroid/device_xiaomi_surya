@@ -394,8 +394,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
-PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.recovery.qcom.rc:recovery/root/init.recovery.qcom.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
