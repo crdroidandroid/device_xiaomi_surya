@@ -25,11 +25,6 @@
         <fqname>@1.0::IGatekeeper/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.ir</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IConsumerIr/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.keymaster</name>
         <transport>hwbinder</transport>
         <fqname>@4.1::IKeymasterDevice/default</fqname>
