@@ -4,6 +4,10 @@ vendor.bluetooth.soc=cherokee
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
