@@ -76,6 +76,7 @@
     <string-array name="config_cameraAuxPackageAllowList" translatable="false">
         <item>com.android.camera</item>
         <item>org.codeaurora.snapcam</item>
+        <item>com.google.android.GoogleCameraEng</item>
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
     </string-array>
