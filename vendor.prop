@@ -137,6 +137,7 @@ persist.vendor.dpm.nsrm.bkg.evt=3955
 persist.vendor.dpmhalservice.enable=1
 
 # Display
+debug.hwui.skia_atrace_enabled=false
 debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
