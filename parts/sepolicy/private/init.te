@@ -1,0 +1,2 @@
+allow init sysfs_lcd_feature:{ file lnk_file } rw_file_perms;
+allow init sysfs_devices_system_cpu:{ file lnk_file } rw_file_perms;

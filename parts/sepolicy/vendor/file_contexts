@@ -1,0 +1,4 @@
+/sys/devices/platform/kcal_ctrl.0(/.*)?         u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?       u:object_r:kcal_dev:s0
+
+/sys/devices/platform/soc/884000.i2c/i2c-3/3-005a/ulevel             u:object_r:sysfs_vibrator:s0

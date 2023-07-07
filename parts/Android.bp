@@ -1,24 +1,34 @@
-//
-// Copyright (C) 2017-2020 The LineageOS Project
-//
+// Copyright (C) 2023 Paranoid Android
 // SPDX-License-Identifier: Apache-2.0
-//
 
 android_app {
     name: "XiaomiParts",
 
+    init_rc: ["init/init.xiaomiparts.rc"],
     srcs: ["src/**/*.java"],
-
+    resource_dirs: ["res"],
     certificate: "platform",
     platform_apis: true,
+    system_ext_specific: true,
     privileged: true,
 
     static_libs: [
-        "org.lineageos.settings.resources",
+        "SettingsLib"
+    ],
+
+    required: [
+        "privapp-permissions-parts.xml",
     ],
 
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
 
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-parts.xml",
+    src: "privapp-permissions-parts.xml",
+    sub_dir: "permissions",
+    system_ext_specific: true,
 }

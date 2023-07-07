@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/xiaomiparts_title">
+
+    <PreferenceCategory
+        android:key="audio"
+        android:title="@string/audio_title">
+
+        <Preference
+            android:key="clear_speaker_settings"
+            android:icon="@drawable/ic_clear_speaker"
+            android:title="@string/clear_speaker_title"
+            android:summary="@string/clear_speaker_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="org.lineageos.settings.speaker.ClearSpeakerActivity"
+                android:targetPackage="org.lineageos.settings.speaker" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="display"
+        android:title="@string/display_title">
+
+        <Preference
+            android:key="kcal_settings"
+            android:icon="@drawable/ic_kcal"
+            android:title="@string/kcal_settings_title"
+            android:summary="@string/kcal_settings_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="org.lineageos.settings.display.KcalSettingsActivity"
+                android:targetPackage="org.lineageos.settings.display" />
+        </Preference>
+
+        <Preference
+            android:key="lcd_features_settings"
+            android:icon="@drawable/ic_cabc"
+            android:title="@string/lcd_features_title"
+            android:summary="@string/lcd_features_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="org.lineageos.settings.display.LcdFeaturesPreferenceActivity"
+                android:targetPackage="org.lineageos.settings.display" />
+        </Preference>
+
+        <Preference
+            android:key="refresh_rate_settings"
+            android:icon="@drawable/ic_refresh_rate"
+            android:title="@string/refresh_title"
+            android:summary="@string/refresh_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="org.lineageos.settings.refreshrate.RefreshActivity"
+                android:targetPackage="org.lineageos.settings.refreshrate" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="performance"
+        android:title="@string/performance_title">
+
+        <Preference
+            android:key="thermal_settings"
+            android:icon="@drawable/ic_thermal_settings"
+            android:title="@string/thermal_title"
+            android:summary="@string/thermal_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="org.lineageos.settings.thermal.ThermalSettingsActivity"
+                android:targetPackage="org.lineageos.settings.thermal" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="vibration"
+        android:title="@string/vibration_title">
+
+        <SeekBarPreference
+            android:key="haptic_level_pref"
+            android:title="@string/haptic_level_title"
+            android:defaultValue="@integer/haptic_level_default"
+            android:max="@integer/haptic_level_max" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
