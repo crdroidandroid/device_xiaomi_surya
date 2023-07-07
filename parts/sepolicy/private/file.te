@@ -1,0 +1,2 @@
+type sysfs_lcd_feature, sysfs_type, fs_type;
+type proc_nvt_feature, proc_type, fs_type;

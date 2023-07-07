@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2021 The LineageOS Project
-
+     Copyright (C) 2018 The LineageOS Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,6 +12,82 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Ambient settings -->
-    <string name="ambient_enable">Use ambient display</string>
+    <!-- Generic texts -->
+    <string name="disabled">Disabled</string>
+
+    <!-- XiaomiParts -->
+    <string name="xiaomiparts_title">XiaomiParts</string>
+    <string name="xiaomiparts_summary">Advanced settings</string>
+    <string name="audio_title">Audio</string>
+    <string name="display_title">Display</string>
+    <string name="performance_title">Performance</string>
+    <string name="vibration_title">Vibration</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Thermal profiles</string>
+    <string name="thermal_summary">Per-app thermal and touchscreen profiles with game mode</string>
+    <string name="thermal_default">Default</string>
+    <string name="thermal_performance">Performance</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Dialer</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_enable">Use Clear speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
+
+    <!-- Kcal settings -->
+    <string name="kcal_settings_title">KCAL</string>
+    <string name="kcal_settings_summary">Adjust the colors of your display using KCAL</string>
+    <string name="kcal_enable">Use KCAL</string>
+    <string name="kcal_not_supported">Display color settings is not supported by the kernel</string>
+    <string name="red_slider_title">Red</string>
+    <string name="green_slider_title">Green</string>
+    <string name="blue_slider_title">Blue</string>
+    <string name="hue_slider_title">Hue</string>
+    <string name="brightness_slider_title">Brightness</string>
+    <string name="kcal_rgb_preference_category_title">RGB</string>
+    <string name="kcal_calibration_preference_category_title">Color calibration</string>
+    <string name="saturation_slider_title">Saturation</string>
+    <string name="reset_default_button_title">Reset to default configuration</string>
+    <string name="reset_default_button_summary">Reset all the configurations of this screen</string>
+    <string name="contrast_slider_title">Contrast</string>
+    <string name="reset_category_title">Reset</string>
+
+    <!-- LCD Features -->
+    <string name="lcd_features_title">LCD features</string>
+    <string name="lcd_features_summary">High Brightness Mode, CABC</string>
+    <string name="lcd_hbm_title">High Brightness Mode (HBM)</string>
+    <string name="lcd_hbm_tile_title">HBM</string>
+    <string name="lcd_hbm_medium">Medium</string>
+    <string name="lcd_hbm_high">High</string>
+    <string name="lcd_cabc_title">CABC Mode</string>
+    <string name="lcd_cabc_low">Low (UI)</string>
+    <string name="lcd_cabc_medium">Medium (Videos)</string>
+    <string name="lcd_cabc_high">High (Images)</string>
+    <string name="lcd_features_info">High Brightness Mode (HBM) increases the maximum brightness of the display to improve visibility under sunlight. Increases power consumption.\n\nCABC (Content Adaptive Backlight Control) adjusts display and backlight brightness based on currently shown content, to reduce power consumption without degradation.</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_game_mode_title">Enable game mode</string>
+    <string name="touch_game_mode_summary">Helps to improve the gaming experience by optimizing the touch screen and increasing the device performance</string>
+    <string name="touch_response_title">Touch response</string>
+    <string name="touch_response_summary">Controls touch response</string>
+    <string name="touch_sensitivity_title">Touch sensitivity</string>
+    <string name="touch_sensitivity_summary">Controls the sensitivity for repeated taps</string>
+    <string name="touch_resistant_title">Touch-resistant area</string>
+    <string name="touch_resistant_summary">Reduces sensitivity near the edges to prevent accidental touches</string>
+
+    <!-- Refresh Rate  -->
+    <string name="refresh_title">Per-app refresh rate</string>
+    <string name="refresh_summary">Set a specific refresh rate for each application</string>
+    <string name="refresh_default">Default</string>
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+
+    <!-- Haptic Level Settings -->
+    <string name="haptic_level_title">Haptic feedback level</string>
+    <string name="haptic_level_summary_incompatible">Feature not supported</string>
+
+    <!-- FPS Counter -->
+    <string name="fps_info_title">FPS Counter</string>
 </resources>

@@ -1,0 +1,48 @@
+# Copyright (C) 2023 Paranoid Android
+# SPDX-License-Identifier: Apache-2.0
+
+on post-fs-data
+    chown system system /sys/devices/platform/soc/884000.i2c/i2c-3/3-005a/ulevel
+    chmod 0664 /sys/devices/platform/soc/884000.i2c/i2c-3/3-005a/ulevel
+
+on property:persist.lcd.hbm_mode=*
+    write /sys/devices/platform/soc/soc:qcom,dsi-display/hbm ${persist.lcd.hbm_mode}
+
+on property:persist.lcd.cabc_mode=*
+    write /sys/devices/platform/soc/soc:qcom,dsi-display/cabc ${persist.lcd.cabc_mode}
+
+on property:sys.perf_profile=1
+    write /dev/stune/top-app/schedtune.boost 10
+    write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 3
+    write /sys/class/kgsl/kgsl-3d0/force_bus_on 1
+    write /sys/class/kgsl/kgsl-3d0/force_clk_on 1
+    write /sys/class/kgsl/kgsl-3d0/force_no_nap 1
+    write /sys/class/kgsl/kgsl-3d0/force_rail_on 1
+    write /sys/class/kgsl/kgsl-3d0/idle_timer 120
+    write /sys/class/kgsl/kgsl-3d0/throttling 0
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 1324800
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq 1804800
+    write /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq 1094400
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/hispeed_freq 2304000
+    write /sys/module/cpu_boost/parameters/input_boost_freq "0:1708800 6:1843200"
+    write /sys/module/cpu_boost/parameters/input_boost_ms 250
+    write /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/governor performance
+    write /sys/module/lpm_levels/parameters/sleep_disabled 1
+
+on property:sys.perf_profile=0
+    write /dev/stune/top-app/schedtune.boost 1
+    write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 1
+    write /sys/class/kgsl/kgsl-3d0/force_bus_on 0
+    write /sys/class/kgsl/kgsl-3d0/force_clk_on 0
+    write /sys/class/kgsl/kgsl-3d0/force_no_nap 0
+    write /sys/class/kgsl/kgsl-3d0/force_rail_on 0
+    write /sys/class/kgsl/kgsl-3d0/idle_timer 80
+    write /sys/class/kgsl/kgsl-3d0/throttling 1
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 1017600
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq 1708800
+    write /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq 806400
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/hispeed_freq 1843200
+    write /sys/module/cpu_boost/parameters/input_boost_freq "0:1324800 6:1324800"
+    write /sys/module/cpu_boost/parameters/input_boost_ms 200
+    write /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/governor bw_hwmon
+    write /sys/module/lpm_levels/parameters/sleep_disabled 0

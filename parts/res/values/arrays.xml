@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2021 The LineageOS Project
-
+     Copyright (C) 2018 The LineageOS Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,14 +12,31 @@
      limitations under the License.
 -->
 <resources>
-    <string-array name="doze_brightness_level">
-        <item>Low brightness</item>
-        <item>High brightness</item>
-        <item>Adaptive brightness</item>
+
+    <!-- Values for LCD HBM pref -->
+    <string-array name="lcd_hbm_modes" translatable="false">
+        <item>@string/disabled</item>
+        <item>@string/lcd_hbm_medium</item>
+        <item>@string/lcd_hbm_high</item>
     </string-array>
-    <string-array name="doze_brightness_level_mode">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
+    <string-array name="lcd_hbm_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
     </string-array>
+
+    <!-- Values for LCD CABC pref -->
+    <string-array name="lcd_cabc_modes" translatable="false">
+        <item>@string/disabled</item>
+        <item>@string/lcd_cabc_low</item>
+        <item>@string/lcd_cabc_medium</item>
+        <item>@string/lcd_cabc_high</item>
+    </string-array>
+    <string-array name="lcd_cabc_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"3"</item>
+        <item>"2"</item>
+    </string-array>
+
 </resources>

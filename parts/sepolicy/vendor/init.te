@@ -1,0 +1,9 @@
+allow init vendor_sysfs_graphics:dir search;
+allow init vendor_sysfs_graphics:file rw_file_perms;
+allow init vendor_sysfs_cpu_boost:{ file lnk_file } rw_file_perms;
+allow init vendor_sysfs_devfreq:{ file lnk_file } rw_file_perms;
+allow init vendor_sysfs_kgsl:{ file lnk_file } rw_file_perms;
+allow init vendor_sysfs_msm_power:{ file lnk_file } rw_file_perms;
+
+allow init sysfs_vibrator:dir search;
+allow init sysfs_vibrator:file rw_file_perms;
