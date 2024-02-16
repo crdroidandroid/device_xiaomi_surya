@@ -470,6 +470,36 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 -vendor/lib64/libsdmextension.so
 -vendor/lib64/libtinyxml2_1.so
 
+# Dolby - from 9R OOS 11.2.8.8
+system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
+-system_ext/priv-app/DaxUI/DaxUI.apk|f2123124ddef928c7c490e2a83b0af5466a0df7e
+-system_ext/priv-app/daxService/daxService.apk|ed1de719afc7181a7e896e0eeaf14edc00761c21
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|84247a3563b362e97dacaa79d4845c1292a92f13
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/lib/libdapparamstorage.so|6c488c6bc88abe13c6fd689124475526c1cf41b8
+vendor/lib/libdeccfg.so|28b3aa2368d091b50ef7d5f3c3d44466a89172f8
+vendor/lib/libqtigef.so|d2e8b296db9d8ff19051858ee1a0143e06c69df3
+vendor/lib/libstagefright_soft_ac4dec.so|e1560136d7f16ed177e8f848fba3448014ea061c
+vendor/lib/libstagefright_soft_ddpdec.so|c1a83910911cdab332088b10b2d3675b735a9524
+vendor/lib/libstagefrightdolby.so|c4269437c623630cf9c79c2010a7cfb88828584a
+vendor/lib/soundfx/libeffectproxy.so|44289fe864b085d53c051ad42ed233727ced175c
+vendor/lib/soundfx/libhwdap.so|6348b774b3df7bd2f485186f2ebc3e84d9435df8
+vendor/lib/soundfx/libswdap.so|bd73d33628837d0e3aa18d85c5ffb8e95b87af1b
+vendor/lib/soundfx/libswgamedap.so|a4d17b610b5cd873bd82c28f7361ba66a5d2c48e
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|73532d31c8fdad87b69e9cc1724dfc5b02a893e7
+vendor/lib64/libdapparamstorage.so|b820de455f13bce531331f9e134b1e56b8a651d4
+vendor/lib64/libdeccfg.so|adea652793ab688253b0b56d6c165625184eab54
+vendor/lib64/libdlbdsservice.so|f8867071a19efabef94eae4eb62424a5a88b9ef0
+vendor/lib64/libstagefright_soft_ac4dec.so|8c89d21ba388c05504f2950d8a7c1103e57214ad
+vendor/lib64/libstagefright_soft_ddpdec.so|555b5b366c35bad0c6d6e98a3d04f1105e4d9e92
+vendor/lib64/libstagefrightdolby.so|67157be87b3d8fe2c5a057044ce596ce1b68d16b
+vendor/lib64/soundfx/libeffectproxy.so|e09115bb4087510eab62d21ab050274d6c98db71
+vendor/lib64/soundfx/libhwdap.so|901e19f8e271c8d228e41136ea8d611c3b3d30b4
+vendor/lib64/soundfx/libswdap.so|a468c839bd18e31d50f92d371dbd079374667068
+vendor/lib64/soundfx/libswgamedap.so|0491096a45e14d8097ceb80c15c0f946bbade389
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|da03a56f6fbeb2bbe23ebb3a48b30fc3e5e76da3
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|45ab26d743b6a56b505447012347493ff41057fc
+
 # DPM
 system/framework/tcmclient.jar
 -system_ext/bin/dpmd
