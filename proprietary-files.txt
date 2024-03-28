@@ -394,7 +394,7 @@ vendor/app/CACertService/CACertService.apk
 -vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
 # CNE
-vendor/app/CneApp/CneApp.apk
+vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink
 vendor/app/IWlanService/IWlanService.apk
 -vendor/bin/cnd
 vendor/etc/cne/mwqem.conf
