@@ -5,14 +5,17 @@
 -->
 <resources>
 
+    <!-- The end padding for the clock in the status bar. -->
+    <dimen name="status_bar_clock_end_padding">2dp</dimen>
+    
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">8dp</dimen>
 
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">12dp</dimen>
+    <dimen name="status_bar_padding_start">0dp</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">5dp</dimen>
+    <dimen name="status_bar_padding_end">0dp</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">20dp</dimen>
