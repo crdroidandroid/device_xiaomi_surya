@@ -136,6 +136,9 @@ persist.vendor.dpm.feature=1
 persist.vendor.dpm.nsrm.bkg.evt=3955
 persist.vendor.dpmhalservice.enable=1
 
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
 # Display
 debug.hwui.skia_atrace_enabled=false
 debug.sf.auto_latch_unsignaled=0
