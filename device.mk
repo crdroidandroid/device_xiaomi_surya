@@ -356,6 +356,7 @@ PRODUCT_PACKAGES += \
     J20CCarrierConfig \
     J20CFrameworks \
     J20CSettings \
+    J20CSettingsLib \
     J20CSettingsProvider \
     J20CSystemUI \
     J20CTelephony \
