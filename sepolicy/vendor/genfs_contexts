@@ -59,8 +59,5 @@ genfscon sysfs /devices/platform/soc/884000.i2c/i2c-3/3-005a/wakeup             
 genfscon sysfs /devices/platform/soc/a8c000.i2c/i2c-2/2-0065/power_supply/bq2597x-standalone u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify              u:object_r:vendor_sysfs_battery_supply:s0
 
-# Power
-genfscon proc /sys/kernel/sched_energy_aware u:object_r:proc_sched_energy_aware:s0
-
 # Touchpanel
 genfscon sysfs /touchpanel                                                           u:object_r:sysfs_touchpanel:s0
