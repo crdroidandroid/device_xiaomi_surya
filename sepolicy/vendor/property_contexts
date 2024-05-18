@@ -10,9 +10,6 @@ ro.hardware.fp                     u:object_r:vendor_fp_prop:s0
 vendor.fps_hal.                    u:object_r:vendor_fp_prop:s0
 vendor.sys.fp                      u:object_r:vendor_fp_prop:s0
 
-# Power HAL
-vendor.powerhal.                   u:object_r:vendor_power_prop:s0
-
 # Telephony
 ro.vendor.oem.imei                 u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.meid                 u:object_r:vendor_deviceid_prop:s0
