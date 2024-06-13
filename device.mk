@@ -42,6 +42,8 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.sm6150
 
 PRODUCT_PACKAGES += \
+    libaudioroute.vendor \
+    libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -296,6 +298,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_omx \
     libstagefright_foundation \
+    libstagefright_softomx_plugin.vendor \
     libstagefright_softomx.vendor
 
 PRODUCT_COPY_FILES += \
@@ -320,6 +323,7 @@ PRODUCT_COPY_FILES += \
 
 # Network
 PRODUCT_PACKAGES += \
+    libnetutils.vendor \
     android.system.net.netd@1.1.vendor
 
 PRODUCT_COPY_FILES += \
@@ -406,6 +410,7 @@ PRODUCT_PACKAGES += \
     libjson \
     libril \
     librilutils \
+    libsqlite.vendor \
     librmnetctl
 
 # Recovery
