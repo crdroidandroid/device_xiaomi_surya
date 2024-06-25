@@ -464,6 +464,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
+# Updater
+AB_OTA_UPDATER := false
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.dual_role_usb
