@@ -5,3 +5,6 @@ set_prop(vendor_init, vendor_power_prop)
 
 # Allow vendor_init to relabel unlabeled files and directories
 allow vendor_init unlabeled:{ dir file } { getattr relabelfrom };
+
+allow vendor_init media_rw_data_file:file getattr;
+allow vendor_init proc_sched:file write;

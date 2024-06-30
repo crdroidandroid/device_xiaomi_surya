@@ -67,3 +67,5 @@ allow vendor_toolbox {
     vendor_persist_vpp_file
     vendor_persist_wcnss_service_file
 }:{ fifo_file file } { r_file_perms setattr };
+
+allow vendor_toolbox media_rw_data_file:file getattr;
