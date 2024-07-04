@@ -127,6 +127,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="hide_ims_apn_bool" value="true" />
         <!-- AOSPA Edit: Enable LTE+ icon globally -->
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
+        <!-- AOSPA Edit: Set LTE+ threshold bandwidth to 0 by default -->
+        <int name="lte_plus_threshold_bandwidth_khz_int" value="0"/>
     </carrier_config>
 
     <carrier_config mcc="001" mnc="01">
