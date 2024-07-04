@@ -85,6 +85,10 @@ on boot
     # Create fingerprint related directory
     mkdir /mnt/vendor/persist/goodix 0770 system system
 
+    # Touchpanel
+    chmod 0664 /sys/touchpanel/double_tap
+    chown system system /sys/touchpanel/double_tap
+
 on property:sys.boot_completed=1
     # Stop statsd after boot
     stop statsd
