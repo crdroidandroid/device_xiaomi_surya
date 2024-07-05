@@ -229,10 +229,6 @@ persist.vendor.radio.vdp_on_ims_cap=1
 # Keystore
 ro.hardware.keystore_desede=true
 
-# Media
-debug.stagefright.ccodec=1
-debug.stagefright.omx_default_rank=0
-
 # Netflix
 vendor.netflix.bsp_rev=Q6150-17263-1
 
