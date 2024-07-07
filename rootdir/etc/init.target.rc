@@ -86,6 +86,9 @@ on boot
     mkdir /mnt/vendor/persist/goodix 0770 system system
 
 on property:sys.boot_completed=1
+    # Stop statsd after boot
+    stop statsd
+    
     # Enable ZRAM on boot_complete
     swapon_all /vendor/etc/fstab.qcom
 
