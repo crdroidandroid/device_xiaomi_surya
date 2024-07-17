@@ -545,10 +545,10 @@ vendor/framework/com.fingerprints.extension.jar
 
 # Graphics
 -vendor/lib/egl/eglSubDriverAndroid.so
--vendor/lib/egl/libEGL_adreno.so
+-vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
 -vendor/lib/egl/libGLESv1_CM_adreno.so
--vendor/lib/egl/libGLESv2_adreno.so
--vendor/lib/egl/libq3dtools_adreno.so
+-vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so
+-vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so
 -vendor/lib/egl/libq3dtools_esx.so
 -vendor/lib/hw/vulkan.adreno.so
 -vendor/lib/libC2D2.so
@@ -560,10 +560,10 @@ vendor/framework/com.fingerprints.extension.jar
 -vendor/lib/libllvm-glnext.so
 -vendor/lib/libllvm-qcom.so
 -vendor/lib64/egl/eglSubDriverAndroid.so
--vendor/lib64/egl/libEGL_adreno.so
+-vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
 -vendor/lib64/egl/libGLESv1_CM_adreno.so
--vendor/lib64/egl/libGLESv2_adreno.so
--vendor/lib64/egl/libq3dtools_adreno.so
+-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
+-vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
 -vendor/lib64/egl/libq3dtools_esx.so
 -vendor/lib64/hw/vulkan.adreno.so
 -vendor/lib64/libC2D2.so
