@@ -37,7 +37,7 @@ on init
 
     write /sys/block/sda/queue/iosched/group_idle 0
 
-on init && property:ro.boot.hwname=*
+on early-init && property:ro.boot.hwname=*
     setprop ro.boot.product.hardware.sku ${ro.boot.hwname}
 
 on property:ro.boot.product.hardware.sku=surya
