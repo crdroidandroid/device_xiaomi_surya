@@ -3,6 +3,7 @@ vendor.bluetooth.soc=cherokee
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # Dexopt
 pm.dexopt.first-boot=quicken
