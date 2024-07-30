@@ -2973,6 +2973,7 @@
         <ctl name="TAS256X RX MODE LEFT" value="Receiver" />
         <ctl name="TAS256X ASI1 SEL LEFT" value="Left" />
         <ctl name="TAS256X ASI Left Switch" value="1" />
+        <ctl name="RX_RX0 Digital Volume" value="88" />
     </path>
 
     <path name="handset-mic">
