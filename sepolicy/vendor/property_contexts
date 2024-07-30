@@ -2,6 +2,10 @@
 vendor.camera.                     u:object_r:vendor_camera_prop:s0
 persist.camera.                    u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.mi.module.   u:object_r:vendor_camera_prop:s0
+persist.vendor.camera              u:object_r:vendor_camera_prop:s0
+persist.vendor.low.cutoff          u:object_r:vendor_camera_prop:s0
+persist.vendor.aiie_capture_dump.  u:object_r:vendor_camera_prop:s0
+persist.vendor.aiie_capture_log.   u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
 persist.vendor.sys.fp.             u:object_r:vendor_fp_prop:s0
