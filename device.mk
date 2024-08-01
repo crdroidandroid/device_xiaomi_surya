@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
 # XiaomiParts
 $(call inherit-product, device/xiaomi/surya/parts/parts.mk)
 
+# MiuiCamera 
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
