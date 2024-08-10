@@ -116,8 +116,9 @@ void vendor_load_properties() {
 
     set_ro_build_prop("fingerprint", fingerprint);
     set_ro_product_prop("device", device);
-    set_ro_product_prop("model", model);
+    set_ro_product_prop("model", marketname);
     set_ro_product_prop("name", name);
+    property_override("ro.product.marketname", marketname.c_str());
     property_override("ro.build.description", description.c_str());
     property_override("ro.build.flavor", flavor.c_str());
     property_override("ro.build.product", device.c_str());
