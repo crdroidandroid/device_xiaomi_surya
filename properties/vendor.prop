@@ -168,6 +168,7 @@ debug.sf.enable_hwc_vds=1
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.latch_unsignaled=1
 debug.sf.treat_170m_as_sRGB=1
+debug.sf.disable_backpressure=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
