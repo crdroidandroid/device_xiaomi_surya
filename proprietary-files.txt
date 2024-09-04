@@ -9,10 +9,12 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 -vendor/lib/libadsprpc.so
 -vendor/lib/libcdsp_default_listener.so
 -vendor/lib/libcdsprpc.so
+-vendor/lib/libcdsprpc_system.so
 -vendor/lib64/libadsp_default_listener.so
 -vendor/lib64/libadsprpc.so
 -vendor/lib64/libcdsp_default_listener.so
 -vendor/lib64/libcdsprpc.so
+-vendor/lib64/libcdsprpc_system.so
 -vendor/lib64/libmdsprpc.so
 -vendor/lib64/libsdsprpc.so
 
