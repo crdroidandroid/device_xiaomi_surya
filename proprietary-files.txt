@@ -8,6 +8,7 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 -vendor/lib/libadsp_default_listener.so
 -vendor/lib/libadsprpc.so
 -vendor/lib/libcdsp_default_listener.so
+-vendor/lib/libcdsprpc.so
 -vendor/lib64/libadsp_default_listener.so
 -vendor/lib64/libadsprpc.so
 -vendor/lib64/libcdsp_default_listener.so
@@ -524,6 +525,7 @@ vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 -vendor/bin/dspservice
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
+-vendor/lib/vendor.qti.hardware.dsp@1.0.so
 -vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # Fingerprint
