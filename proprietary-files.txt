@@ -8,6 +8,7 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 -vendor/lib/libadsp_default_listener.so
 -vendor/lib/libadsprpc.so
 -vendor/lib/libcdsp_default_listener.so
+-vendor/lib/libcdsprpc.so
 -vendor/lib64/libadsp_default_listener.so
 -vendor/lib64/libadsprpc.so
 -vendor/lib64/libcdsp_default_listener.so
@@ -117,6 +118,7 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 -vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Camera
+-vendor/lib/libcamera_nn_stub.so
 -vendor/lib64/hw/camera.qcom.so
 -vendor/lib64/hw/com.qti.chi.override.so
 -vendor/lib64/libFaceGrade.so
@@ -524,6 +526,7 @@ vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 -vendor/bin/dspservice
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
+-vendor/lib/vendor.qti.hardware.dsp@1.0.so
 -vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # Fingerprint
@@ -875,6 +878,7 @@ vendor/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql
 -vendor/bin/sensors.qti
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
+-vendor/lib/libsnsapi.so
 -vendor/lib64/libsensorslog.so
 -vendor/lib64/libsns_device_mode_stub.so
 -vendor/lib64/libsns_fastRPC_util.so
