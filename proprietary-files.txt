@@ -966,3 +966,32 @@ vendor/firmware/osc_rtp_24K_5s.bin
 
 # WLAN
 -vendor/bin/cnss-daemon
+
+# Dolby
+system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
+-system_ext/priv-app/DaxUI/DaxUI.apk|f2123124ddef928c7c490e2a83b0af5466a0df7e
+-system_ext/priv-app/daxService/daxService.apk|0d1f71d0a58d909c05adacf5239503588b9d39ea
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|84247a3563b362e97dacaa79d4845c1292a92f13
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/lib/libdapparamstorage.so|6c488c6bc88abe13c6fd689124475526c1cf41b8
+vendor/lib/libdeccfg.so|28b3aa2368d091b50ef7d5f3c3d44466a89172f8
+vendor/lib/libstagefright_soft_ac4dec.so|d5221991029fee159e225cafcb397e5e85070c81
+vendor/lib/libstagefright_soft_ddpdec.so|9d84bc7eca710f618e0e960d664ca00e608e756b
+vendor/lib/libstagefrightdolby.so|a2a600ef92c3a032a5d6fb27fa27b01be92a4747
+vendor/lib/soundfx/libeffectproxy.so|44289fe864b085d53c051ad42ed233727ced175c
+vendor/lib/soundfx/libhwdap.so|6348b774b3df7bd2f485186f2ebc3e84d9435df8
+vendor/lib/soundfx/libswdap.so|bd73d33628837d0e3aa18d85c5ffb8e95b87af1b
+vendor/lib/soundfx/libswgamedap.so|a4d17b610b5cd873bd82c28f7361ba66a5d2c48e
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|73532d31c8fdad87b69e9cc1724dfc5b02a893e7
+vendor/lib64/libdapparamstorage.so|b820de455f13bce531331f9e134b1e56b8a651d4
+vendor/lib64/libdeccfg.so|adea652793ab688253b0b56d6c165625184eab54
+vendor/lib64/libdlbdsservice.so|2e29d88024d80ed23f51f9beffc6e6698ebe6293
+vendor/lib64/libstagefright_soft_ac4dec.so|858913d67995d10dd5e0d114cdd614ee059446ef
+vendor/lib64/libstagefright_soft_ddpdec.so|ab6aabfe237df482c0ca9d78bd7ad08083b9d60d
+vendor/lib64/libstagefrightdolby.so|3f78d8a4eb9e0b5d07fe82747e08bb82d4bc0c21
+vendor/lib64/soundfx/libeffectproxy.so|e09115bb4087510eab62d21ab050274d6c98db71
+vendor/lib64/soundfx/libhwdap.so|901e19f8e271c8d228e41136ea8d611c3b3d30b4
+vendor/lib64/soundfx/libswdap.so|a468c839bd18e31d50f92d371dbd079374667068
+vendor/lib64/soundfx/libswgamedap.so|0491096a45e14d8097ceb80c15c0f946bbade389
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|da03a56f6fbeb2bbe23ebb3a48b30fc3e5e76da3
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|45ab26d743b6a56b505447012347493ff41057fc

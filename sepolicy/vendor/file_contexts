@@ -38,3 +38,8 @@
 # Xiaomi thermal daemon
 /vendor/bin/mi_thermald                                              u:object_r:mi_thermald_exec:s0
 /data/vendor/thermal(/.*)?                                           u:object_r:thermal_data_file:s0
+
+# Dolby
+/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service u:object_r:hal_dms_default_exec:s0
+/data/vendor/dolby(/.*)?                                             u:object_r:vendor_data_file:s0
+/data/vendor/multimedia(/.*)?                                        u:object_r:vendor_data_file:s0
