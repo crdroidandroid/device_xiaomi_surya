@@ -1,5 +1,10 @@
 <manifest version="2.0" type="device" target-level="5">
     <hal format="hidl">
+        <name>vendor.dolby.hardware.dms</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IDms/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
         <fqname>@6.0::IDevicesFactory/default</fqname>
