@@ -1,0 +1,21 @@
+# Firmware - from surya (V14.0.5.0.SJGEUXM) - (OTA Image).
+# aop.mbn: from V12.5.8.0 (fix macro lens)
+
+BTFM.bin
+NON-HLOS.bin
+abl.elf
+aop.mbn
+cmnlib.mbn
+cmnlib64.mbn
+devcfg.mbn
+dspso.bin
+ffu.img
+hyp.mbn
+imagefv.elf
+km4.mbn
+qupv3fw.elf
+storsec.mbn
+tz.mbn
+uefi_sec.mbn
+xbl.elf
+xbl_config.elf

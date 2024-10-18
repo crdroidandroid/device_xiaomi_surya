@@ -28,9 +28,13 @@ CLEAN_VENDOR=true
 
 KANG=
 SECTION=
+FWBLOBS=
 
 while [ "${#}" -gt 0 ]; do
     case "${1}" in
+        -f | --extract-firmware )
+                FWBLOBS=true
+                ;;
         -n | --no-cleanup )
                 CLEAN_VENDOR=false
                 ;;
@@ -73,6 +77,10 @@ function blob_fixup_dry() {
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
-extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
+if [ ! -z "${FWBLOBS}" ]; then
+    extract_firmware "${MY_DIR}/proprietary-firmware.txt" "${SRC}"
+else
+    extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
+fi
 
 "${MY_DIR}/setup-makefiles.sh"
