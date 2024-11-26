@@ -156,6 +156,7 @@ vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libdng_sdk2vendor.so
+vendor/lib64/libflaw.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libhvx_interface.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
