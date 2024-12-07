@@ -434,7 +434,6 @@ PRODUCT_COPY_FILES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.media.audio.common.types-V2-cpp \
     android.hardware.wifi-service \
     hostapd \
     ipacm \
