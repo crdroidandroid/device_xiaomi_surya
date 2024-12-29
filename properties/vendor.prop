@@ -232,9 +232,6 @@ ro.config.avoid_gfx_accel=true
 persist.vendor.fingerprint.type=side
 persist.vendor.fingerprint.sensor_modules=goodix,fpc
 
-# FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # FS-verity
 ro.apk_verity.mode=2
 
