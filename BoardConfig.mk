@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2024 The LineageOS Project
+# Copyright (C) 2020-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -50,13 +50,6 @@ TARGET_NO_BOOTLOADER := true
 TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
 MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
-
-
-# Display
-TARGET_USES_COLOR_METADATA := true
-TARGET_USES_DISPLAY_RENDER_INTENTS := true
-TARGET_USES_DRM_PP := true
-TARGET_USES_HWC2 := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
@@ -113,7 +106,6 @@ MALLOC_SVELTE := true
 
 # Media
 TARGET_USES_ION := true
-TARGET_DISABLED_UBWC := true
 
 # Partitions
 BOARD_USES_METADATA_PARTITION := true
