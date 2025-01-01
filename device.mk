@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2024 The LineageOS Project
+# Copyright (C) 2020-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -124,8 +124,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service
 
 PRODUCT_PACKAGES += \
-    gralloc.sm6150 \
-    hwcomposer.sm6150
+    gralloc.qcom \
+    hwcomposer.qcom
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@1.1.vendor \
