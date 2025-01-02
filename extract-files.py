@@ -47,6 +47,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/lib64/libwfdnative.so': blob_fixup()
+        .remove_needed('android.hidl.base@1.0.so'),
     'vendor/lib64/android.hardware.camera.provider@2.4-legacy.so': blob_fixup()
         .add_needed('libcamera_provider_shim.so'),
     'vendor/lib64/camera/components/com.qti.node.watermark.so': blob_fixup()
