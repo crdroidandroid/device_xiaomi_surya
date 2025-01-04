@@ -723,17 +723,7 @@ vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/init/vppservice.rc
 vendor/etc/seccomp_policy/codec2.vendor.base.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext.policy
--vendor/lib/libOmxAacDec.so
--vendor/lib/libOmxAlacDec.so
--vendor/lib/libOmxAmrDec.so
--vendor/lib/libOmxAmrwbplusDec.so
--vendor/lib/libOmxApeDec.so
--vendor/lib/libOmxDsdDec.so
--vendor/lib/libOmxEvrcDec.so
--vendor/lib/libOmxQcelp13Dec.so
 -vendor/lib/libOmxVpp.so
--vendor/lib/libOmxWmaDec.so
--vendor/lib/libdsd2pcm.so
 -vendor/lib/libmmosal.so;MODULE=libmmosal_vendor
 -vendor/lib/libqcodec2.so
 -vendor/lib/libvppclient.so
