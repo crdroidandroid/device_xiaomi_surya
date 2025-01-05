@@ -416,6 +416,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/qcom/opensource/usb/etc \
+    vendor/qcom/opensource/commonsys/display \
+    vendor/qcom/opensource/commonsys-intf/display \
     bootable/deprecated-ota \
     hardware/google/interfaces \
     hardware/google/pixel \
