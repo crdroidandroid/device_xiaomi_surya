@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     libcamera_provider_shim \
+    libui_shim.vendor \
     libpiex_shim
 
 # Dex/ART optimization
